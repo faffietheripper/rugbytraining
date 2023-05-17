@@ -1,3 +1,4 @@
+
 /*let myName = prompt ("Whats your name?");
 
 console.log("Hello" + myName);
@@ -59,4 +60,47 @@ function getLevel() {
 
     document.write(message)
 }
+
+//function to ask how often one goes to practice
+function getRugbyTraining(){
+let response = prompt("How often do you go for training?")
+
+// while (response != 4){
+//     response = prompt ("How often do you go for training?")
+
+while(response < 4){
+        
+}
+
+    if(response != 4){
+        alert("Are you not embarrassed?")
+       document.write ("thats not enough bro");
+    }
+    else {
+     alert("Well done mate. Keep going");
+     document.write ("Keep going bossman");
+    }
+
+}
+
+ 
+//getRugbyTraining()
+
+/*function guessANumber() {
+    let answer;
+  
+    // while the answer is incorrect, keep asking
+    while (answer != 3) {
+      answer = prompt("Guess a number between 0-10");
+  
+      if (answer != 3) {
+        alert("Nope! Try again");
+      } else {
+        alert("Nice work! My favourite number is 3!");
+        document.write("You guessed my number!");
+      }
+    }
+  }
+
+  guessANumber ()*/
 
